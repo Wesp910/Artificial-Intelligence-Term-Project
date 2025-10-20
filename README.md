@@ -64,9 +64,5 @@ python src/main.py
 ## Milestones
 
 - [x] Milestone 1: Problem formulation, literature review, and project planning
-- [ ] Milestone 2: Methods implementation and initial code development
+- [x] Milestone 2: Methods implementation and initial code development
 - [ ] Milestone 3: Experiments, results, and analysis
-
-## License
-
-This project is for educational purposes as part of CSC 3250 coursework.
