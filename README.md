@@ -4,7 +4,7 @@
 **Dr. Cueva Parra | Fall 2025**
 
 **Team Members:** Wes & JB  
-**Project Status:** ✅ Milestone 3 Complete
+**Project Status:** Milestone 3 Complete
 
 ---
 
