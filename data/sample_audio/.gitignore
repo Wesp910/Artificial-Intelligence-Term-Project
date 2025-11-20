@@ -1,0 +1,5 @@
+# Audio files are recorded locally and not committed to repo
+*.wav
+*.mp3
+*.m4a
+*.ogg
