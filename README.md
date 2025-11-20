@@ -184,4 +184,4 @@ Complete bibliography in [Milestone 3 report](docs/milestones/Milestone-3-Comple
 
 ---
 
-Villanova University | CSC 3250 | Fall 2025
+High Point University | CSC 3250 | Fall 2025
