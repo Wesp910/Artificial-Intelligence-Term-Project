@@ -1,50 +1,40 @@
-# VoiceBridge Experiments
+# Experiments
 
-This directory contains experimental scripts and results for the VoiceBridge speech translation system.
+Scripts for testing VoiceBridge performance.
 
-## Test Scripts
+## Scripts
 
-### Quick Demo
-Run a single translation test:
+**quick_demo.py** - Single translation demo  
+**test_accuracy.py** - Tests 12 translations, you evaluate correctness  
+**test_latency.py** - Measures timing for 15 tests automatically
+
+## How to Run
+
 ```bash
 python experiments/quick_demo.py
-```
-
-### Accuracy Testing
-Test translation accuracy across 12 test cases:
-```bash
 python experiments/test_accuracy.py
-```
-
-You'll evaluate each translation as correct/incorrect. Results saved to CSV.
-
-### Latency Testing
-Measure processing time across 15 test cases:
-```bash
 python experiments/test_latency.py
 ```
 
-Automatic timing for each component. Results saved to CSV.
+All scripts work from project root, no path setup needed.
 
-## Experimental Results
+## Results
 
-Results from our testing sessions are stored as CSV files:
-- `accuracy_results_YYYYMMDD_HHMM.csv`
-- `latency_results_YYYYMMDD_HHMM.csv`
+Scripts save results to CSV files:
+- accuracy_results_YYYYMMDD_HHMM.csv
+- latency_results_YYYYMMDD_HHMM.csv
 
 ## Test Environment
 
-- **Hardware**: M1 MacBook Pro (2019), M3 MacBook Pro (2024)
-- **Audio Input**: Built-in MacBook microphones
-- **Network**: Standard WiFi connection for API calls
+We tested on:
+- M1 MacBook Pro (2019) - Wes
+- M3 MacBook Pro (2024) - JB
 
-## Running Experiments
+Both using built-in mics and WiFi for API calls.
 
-All scripts use relative paths and work automatically from the project root:
+## Our Results
 
-```bash
-cd Artificial-Intelligence-Term-Project
-python experiments/quick_demo.py
-```
+- **Accuracy**: 100% (12/12 correct)
+- **Average latency**: ~8 seconds
 
-No path configuration needed.
+Detailed analysis in Milestone 3 report.
