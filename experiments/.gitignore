@@ -1,0 +1,5 @@
+# Experiment results are generated locally
+*.csv
+*.png
+*.jpg
+*.json
